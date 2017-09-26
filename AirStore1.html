@@ -1,15 +1,77 @@
 <style type="text/css">
-	.container{	position: relative;
+	.container {	position: relative;
 				text-align: center;
 				color: white;
+	}
+	.container1 {	overflow: hidden;
+				background-color: #333;
+				font-family: Arial;
+				
+	}
+	.container1 a {	float: left;
+				font-size: 16px;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+	}
+	.dropdown {		float: left;
+				overflow: hidden;
+	}
+	.dropdown .dropbtn {font-size: 16px;    
+				border: none;
+				outline: none;
+				color: white;
+				padding: 14px 16px;
+				background-color: inherit;
+	}
+	.container a:hover, .dropdown:hover .dropbtn {
+				background-color: red;
+	}
+	.dropdown-content {	display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+	}
+	.dropdown-content a {
+				float: none;
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+	}
+
+	.dropdown-content a:hover {
+				background-color: #ddd;
+	}
+
+	.dropdown:hover .dropdown-content {
+				display: block;
 	}
 	.centered{	position: absolute;
 				top: 90%;
 				left: 50%;
 				transform: translate(-50%, -50%);
-			}
+				}
 </style>
 
+<div class="container1">
+  <a href="https://www.ebay.com/usr/airstore1">Home</a>
+ 
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <a href="#news">Link</a>
+</div>
+<br/>
 <div class="container">
 	<img width="400" height="200" src="https://lh3.googleusercontent.com/-CDykILUePyE/WclL4bgZfSI/AAAAAAAAIFc/zbFePfWkdX0ZaYVgSkPoySQGnRS23LKeQCEwYBhgL/w140-h78-p/sign-1209759_640.jpg">
 	<div class="centered" color="white">AirSTORE</div>
@@ -30,17 +92,15 @@
 			<b>Item Specifics:</b>
 			<ul>
 				<li><b>Gender</b>: Men</li>
-				<li><b>Style</b>: Athletic Sneakers</li>
-				<li><b>Features & Fastening</b>: Lace-Up</li>
-				<li><b>Upper Material</b>: Mesh</li>
-				<li><b>Sole Material</b>: Rubber</li>
-				<li><b>Pattern</b>: Solid</li>
-				<li><b>Color</b>: Black/White, Black/Pink</li>
-				<li><b>US Shoe Size(Men's)</b>: 6.5-9</li>
+				<li><b>Style</b>: Slim Fit</li>
+				<li><b>Features & Fastening</b>: Made up to your size</li>
+				<li><b>Sole Material</b>: Cotton Blend</li>
+				<li><b>Color</b>: Black, White, Gray (Light & Dark), Blue (Light & Dark)</li>
+				<li><b>Size</b>: XS, S, M, L, XL, XXL, XXL, Made it to Size (if apply or you want)</li>
 			</ul>
 
-			<b>Package Included:</b>
-			1 pair of shoes (Without Box)
+			<b>Package Included:</b> Jacket, Vest and Pants
+			
 			<br/><br/>
 			<b>Note:</b>
 			<ol>
